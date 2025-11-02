@@ -44,3 +44,8 @@ print(text.isalpha())  # Output: False
 print(text.isdigit())  # Output: False
 print(text.isalnum())  # Output: True
 print(text.isspace())  # Output: False
+
+# ord() and chr() - Character Encoding
+print("\n")
+print(ord('A'))  # Output: 65
+print(chr(65))   # Output: 'A'
