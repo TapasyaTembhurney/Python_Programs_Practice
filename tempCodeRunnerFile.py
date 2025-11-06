@@ -1,2 +1,2 @@
-text1 = " Welcome to Python Programming "
-print(text.strip())
+if(char in vowels):
+    #     sum += 1
