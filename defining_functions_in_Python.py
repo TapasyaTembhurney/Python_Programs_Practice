@@ -16,6 +16,7 @@
 
 #1
 def average(a,b,c):
+    #positional arguments are a , b, c
     avg = (a+b+c)//3
     # print(avg)
     return avg
