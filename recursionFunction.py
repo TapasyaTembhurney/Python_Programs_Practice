@@ -22,5 +22,5 @@ def is_palindrome_number(num):
     return original_num == reversed_num
 
 print(is_palindrome_number(121)) # Output: True
-print(is_palindrome_number(1124211)) # Output: True
+print(is_palindrome_number(1124211)) # Output: Trueyy
 print(is_palindrome_number(123)) # Output: False
