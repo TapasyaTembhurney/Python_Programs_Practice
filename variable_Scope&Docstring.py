@@ -57,3 +57,5 @@ def factorial(num):
 
 print(factorial.__doc__)
 print(factorial(5))
+
+# Note -> YOU CAN ALSO WRITE MULTILINE DOCSTRING.
