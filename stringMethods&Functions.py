@@ -49,3 +49,7 @@ print(text.isspace())  # Output: False
 print("\n")
 print(ord('A'))  # Output: 65
 print(chr(65))   # Output: 'A'
+
+list = ['Amrit' , 'hello']
+print('Amrit' not in list)
+print(list)

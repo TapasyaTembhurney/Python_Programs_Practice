@@ -9,7 +9,7 @@ def square(x):
 sum = lambda x , y: x+y
 """
 Alternative general function for sum
-def square(x):
+def sum(x,y):
     return x+y
 """
 print(square(3))

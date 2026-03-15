@@ -30,3 +30,35 @@ for a in range (2,21):
     if a == 3:
         pass
     print(a)
+
+
+class employee:
+    def putdata(self):
+        self.id = int(input("Enter id :"))
+        self.name = input("Enter name :")
+        self.rollno = int(input("Enter rollno :"))
+
+    def display(self):
+        print("Employee id:" , self.id)
+        print("Employee name:" , self.name)
+        print("Employee rollno:" , self.rollno)
+
+a = employee()
+a.putdata()
+a.display()
+
+
+from abc import ABC , abstractmethod
+
+class Greet(ABC):
+    @abstractmethod
+
+    def say_hello(self):
+        pass 
+    
+class English(Greet):
+    def say_hello(self):
+        return "Hello!"
+    
+new_obj = English()
+print(new_obj.say_hello())

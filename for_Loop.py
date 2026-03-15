@@ -11,6 +11,6 @@ for j in range(1,11):
     print(num, "X ", j , "=", num*(j))
 
 
-#Just for checking the code
+# Just for checking the code
 # x = int("twenty-five")
 # print(x)
