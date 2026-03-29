@@ -1,5 +1,6 @@
 class Employee:
-    def __init__(self, salary , name , bond):
+
+    def __init__(self, salary , name , bond): #init constructor is created
         self.salary = salary #Create an instance attribute of name salary and assign it with salary
         self.name = name
         self.bond = bond
