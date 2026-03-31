@@ -1,3 +1,4 @@
-John Doe is a nice Guy. He lives in New York and has a big apartment . He Loves Python Programming and his favourite library is pandas.John Doe initially lives in Phoenix , Arizona. He is a very nice guy
+John Doe is a nice Guy. He lives in New York and has a big apartment . 
+
 John Doe initially lives in Phoenix , Arizona. 
 He is a very nice guy
