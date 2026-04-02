@@ -8,12 +8,17 @@ def decorator(func):
 
     return wrapper
 
+@decorator #Alternative way to write decorators used in building web applications using frameworks like flask
 def say_hello():    
     print("Hello!")
 
-f = decorator(say_hello)
+
+say_hello()
+
+
+# f = decorator(say_hello)
 # print(f) #only prints object of function
-f() #calls the wrapper function
+# f() #calls the wrapper function
 
 #The f() function will look like these
 
