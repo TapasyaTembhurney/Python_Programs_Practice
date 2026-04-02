@@ -1,7 +1,7 @@
 #Decorator is a function that takes a function , it creates a new function inside its body(wrapper). Then it returns that new function.
 
 def decorator(func):
-    def wrapper():
+    def wrapper(): #Nesting of function is also donw here
         print("I am about to execute a function.")
         func()
         print("I have executed the function.")
