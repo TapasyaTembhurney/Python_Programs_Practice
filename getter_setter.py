@@ -22,3 +22,25 @@ e.first_name = "John"
 print(e.name)
 
 
+class Person:
+    def __init__(self, name):
+        self._name = name
+
+    @property
+    def name(self):
+        # return getattr(self, "_name" , "Name not set")
+        return self._name
+    
+    @name.setter
+    def name(self, new_name):
+        self._name = new_name
+
+    @name.deleter
+    def name(self):
+        self._name = None
+        # del self._name
+
+p = Person("Alice")
+print(p.name)
+del p.name
+print(p.name)
