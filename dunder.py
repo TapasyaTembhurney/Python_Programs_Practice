@@ -6,12 +6,9 @@ class Employee:
     
     def display(self):
         info = f"The name is {self.name} and the salary is {self.salary}"
-
-        print(info)
-    
-e1 = Employee("Jack" , 30000)
-e2 = Employee("James" , 20000)
-# print(Employee().company)
-print(Employee().name)
-
-e1.display()
+    def display(self):
+        info = f"The name is {self.name} and the salary is {self.salary}"
+        
+    e = Employee("Harry", 352)
+    print(e.name , e.salary)
+    print(str(e))
